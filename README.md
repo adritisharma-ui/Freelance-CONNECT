@@ -4,6 +4,9 @@ A full stack freelance marketplace built with the **MERN stack**, where buyers c
 
 ---
 
+## Demo Video [Live Demo](https://drive.google.com/file/d/1wkePrZ4b4S8Afvm9qW2IILrV44NBkwv5/view?usp=sharing](https://drive.google.com/file/d/1wkePrZ4b4S8Afvm9qW2IILrV44NBkwv5/view?usp=sharing))
+## Code Explaination Video  [Live Demo](https://drive.google.com/file/d/1xtXMcaOcMV8n8dmRZ1sxPiiG-0G28PiM/view?usp=sharing)
+
 ## 📸 Features
 
 - 🔐 **JWT Authentication** — Signup & Login with bcrypt password hashing
