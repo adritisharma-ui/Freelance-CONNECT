@@ -6,21 +6,22 @@ A full stack freelance marketplace built with the **MERN stack**, where buyers c
 
 ## [Project Overview Video](https://drive.google.com/file/d/1wkePrZ4b4S8Afvm9qW2IILrV44NBkwv5/view?usp=sharing](https://drive.google.com/file/d/1wkePrZ4b4S8Afvm9qW2IILrV44NBkwv5/view?usp=sharing))
 ## [Code Explaination Video](https://drive.google.com/file/d/1xtXMcaOcMV8n8dmRZ1sxPiiG-0G28PiM/view?usp=sharing)
+## [Report](https://drive.google.com/file/d/16LXj_VTuNGKE7WTsPKJjger_uZVoox63/view?usp=sharing)
 
-## 📸 Features
+## Features
 
-- 🔐 **JWT Authentication** — Signup & Login with bcrypt password hashing
-- 👤 **Role-Based Access** — Users can register as a Buyer, Seller, or Both
-- 📋 **Gig Management** — Sellers can create, update, and delete their gigs
-- 🖼️ **Image Uploads** — Thumbnail image upload for gigs using Multer
-- 🔍 **Search** — Search gigs by keyword (title or description)
-- 📬 **Request Lifecycle** — Buyers send requests; sellers accept/reject/complete; buyers confirm delivery
-- 👤 **Profile Management** — Users can update their name and email
-- 🛡️ **Protected Routes** — Private pages accessible only to authenticated users
+- **JWT Authentication** — Signup & Login with bcrypt password hashing
+- **Role-Based Access** — Users can register as a Buyer, Seller, or Both
+- **Gig Management** — Sellers can create, update, and delete their gigs
+- **Image Uploads** — Thumbnail image upload for gigs using Multer
+- **Search** — Search gigs by keyword (title or description)
+- **Request Lifecycle** — Buyers send requests; sellers accept/reject/complete; buyers confirm delivery
+- **Profile Management** — Users can update their name and email
+- **Protected Routes** — Private pages accessible only to authenticated users
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 | Package | Version | Purpose |
@@ -45,7 +46,7 @@ A full stack freelance marketplace built with the **MERN stack**, where buyers c
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 freelance-connect/
@@ -88,7 +89,7 @@ freelance-connect/
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18+)
@@ -142,7 +143,7 @@ The frontend will be running at `http://localhost:5173` (Vite's default port)
 
 ---
 
-## 🔗 API Endpoints
+## API Endpoints
 
 ### Auth
 | Method | Endpoint | Access | Description |
@@ -179,7 +180,7 @@ The frontend will be running at `http://localhost:5173` (Vite's default port)
 
 ---
 
-## 🔄 Request Status Lifecycle
+## Request Status Lifecycle
 
 ```
 pending → accepted → completed → confirmed
@@ -193,7 +194,7 @@ pending → accepted → completed → confirmed
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 | Variable | Description | Example |
 |---|---|---|
@@ -201,11 +202,11 @@ pending → accepted → completed → confirmed
 | `MONGODB_URI` | MongoDB connection string | `mongodb://localhost:27017/freelance-connect` |
 | `JWT_SECRET` | Secret key for signing JWT tokens | `your_secret_key` |
 
-> ⚠️ Never commit your `.env` file to GitHub. Add it to `.gitignore`.
+> Never commit your `.env` file to GitHub. Add it to `.gitignore`.
 
 ---
 
-## 📌 Recommended .gitignore
+## Recommended .gitignore
 
 ```
 node_modules/
